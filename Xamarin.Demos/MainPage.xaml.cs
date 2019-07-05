@@ -8,7 +8,7 @@ namespace Xamarin.Demos
     [DesignTimeVisible(false)]
     public partial class MainPage : ExtendedContentPage
     {
-        private bool _isLight = false;
+        private bool _isLight = true;
 
         public MainPage()
         {
