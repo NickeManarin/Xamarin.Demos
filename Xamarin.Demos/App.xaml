@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:n="clr-namespace:Xamarin.Demos.Controls;assembly=Xamarin.Demos"
              mc:Ignorable="d"
              x:Class="Xamarin.Demos.App">
 
@@ -13,10 +14,35 @@
             <ResourceDictionary Source="Resources/Dark.xaml"/>
             <ResourceDictionary Source="Resources/Light.xaml"/>
 
+            <OnPlatform x:Key="Font.Glyph" x:TypeArguments="x:String">
+                <On Platform="Android" Value="Fonts/app_icons.ttf#AppIcons"/>
+                <On Platform="iOS" Value="AppIcons"/>
+            </OnPlatform>
+
             <Style TargetType="{x:Type Label}">
                 <Setter Property="FontSize" Value="16"/>
                 <Setter Property="TextColor" Value="{DynamicResource Color.Foreground}"/>
             </Style>
+
+            <Style TargetType="{x:Type n:FontIconLabel}">
+                <Setter Property="FontFamily" Value="{StaticResource Font.Glyph}"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="TextColor" Value="{DynamicResource Color.Foreground}"/>
+            </Style>
+
+
+            <x:String x:Key="Icon.Check">&#xE92D;</x:String>
+            <x:String x:Key="Icon.ChevronUp">&#xE931;</x:String>
+            <x:String x:Key="Icon.ChevronDown">&#xE92E;</x:String>
+            <x:String x:Key="Icon.Close">&#xEA0E;</x:String>
+            <x:String x:Key="Icon.Folder">&#xE96C;</x:String>
+            <x:String x:Key="Icon.Location">&#xE98F;</x:String>
+            <x:String x:Key="Icon.Login">&#xE98C;</x:String>
+            <x:String x:Key="Icon.Hash">&#xE978;</x:String>
+            <x:String x:Key="Icon.Plus">&#xE9BA;</x:String>
+            <x:String x:Key="Icon.Settings">&#xE9CB;</x:String>
+            <x:String x:Key="Icon.Trash">&#xE9EC;</x:String>
+            <x:String x:Key="Icon.Trash2">&#xE9EB;</x:String>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

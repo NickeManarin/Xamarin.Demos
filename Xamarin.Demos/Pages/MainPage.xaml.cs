@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using Xamarin.Demos.Controls;
+using Xamarin.Demos.Pages;
 using Xamarin.Forms;
 
 namespace Xamarin.Demos
@@ -17,7 +18,7 @@ namespace Xamarin.Demos
 
         private async void FontTest_Clicked(object sender, EventArgs e)
         {
-            var nav = new NavigationPage(new OtherPage());
+            var nav = new NavigationPage(new NavPage());
             NavigationPage.SetHasNavigationBar(nav, false);
 
             await Navigation.PushModalAsync(nav);

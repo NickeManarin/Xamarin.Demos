@@ -44,19 +44,19 @@ namespace Xamarin.Demos.Controls
             OnFirstAppearing();
         }
 
-        protected override void OnSizeAllocated(double width, double height)
-        {
-            base.OnSizeAllocated(width, height); //Must be called.
+        //protected override void OnSizeAllocated(double width, double height)
+        //{
+        //    base.OnSizeAllocated(width, height); //Must be called.
 
-            if (!(Math.Abs(_width - width) > double.Epsilon) && !(Math.Abs(_height - height) > double.Epsilon))
-                return;
+        //    if (!(Math.Abs(_width - width) > double.Epsilon) && !(Math.Abs(_height - height) > double.Epsilon))
+        //        return;
 
-            _width = width;
-            _height = height;
+        //    _width = width;
+        //    _height = height;
 
-            //Reset safe area on rotation as the landscape/portrait safe areas are different.
-            SetSafeArea();
-        }
+        //    //Reset safe area on rotation as the landscape/portrait safe areas are different.
+        //    SetSafeArea();
+        //}
 
         /// <summary>
         /// This method is called when it's the first time that the view appeared.

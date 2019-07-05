@@ -1,0 +1,34 @@
+﻿<c:ExtendedContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:c="clr-namespace:Xamarin.Demos.Controls;assembly=Xamarin.Demos"
+                       x:Class="Xamarin.Demos.Pages.NavPage" 
+                       StartColor="{DynamicResource Color.Background.Even}" EndColor="{DynamicResource Color.Background.Odd}">
+
+    <Grid x:Name="MainGrid">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <ContentView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="MainContentView" Content="{Binding CurrentView, Mode=OneWay}"
+                         VerticalOptions="Fill" HorizontalOptions="Fill"/>
+
+            <Button Grid.Row="1" Grid.Column="0" Text="Back" Command="{Binding BackCommand}" Margin="5" Clicked="Back_Clicked">
+                <Button.ImageSource>
+                    <FontImageSource FontFamily="{StaticResource Font.Glyph}" Glyph="{StaticResource Icon.Check}" Size="20" Color="Black"/>
+                </Button.ImageSource>
+            </Button>
+
+            <Button Grid.Row="1" Grid.Column="1" Text="Next" Command="{Binding NextCommand}" Margin="5" Clicked="Next_Clicked">
+                <Button.ImageSource>
+                    <FontImageSource FontFamily="{StaticResource Font.Glyph}" Glyph="{StaticResource Icon.Folder}" Size="20" Color="Black"/>
+                </Button.ImageSource>
+            </Button>
+        </Grid>
+    </Grid>
+</c:ExtendedContentPage>

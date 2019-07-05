@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:c="clr-namespace:Xamarin.Demos.Controls;assembly=Xamarin.Demos"
+             mc:Ignorable="d"
+             x:Class="Xamarin.Demos.Pages.Tags">
+  <ContentView.Content>
+      <StackLayout HorizontalOptions="Center">
+            <c:FontIconLabel Text="{StaticResource Icon.Hash}" TextColor="{DynamicResource Color.Foreground}"
+                             FontSize="24" Margin="3,2" VerticalOptions="Center"/>
+            <c:FontIconLabel Text="{StaticResource Icon.Settings}" TextColor="{DynamicResource Color.Foreground}"
+                             FontSize="24" Margin="3,2" VerticalOptions="Center"/>
+            <c:FontIconLabel Text="{StaticResource Icon.Close}" TextColor="{DynamicResource Color.Foreground}"
+                             FontSize="24" Margin="3,2" VerticalOptions="Center"/>
+            <c:FontIconLabel Text="{StaticResource Icon.Folder}" TextColor="{DynamicResource Color.Foreground}"
+                             FontSize="24" Margin="3,2" VerticalOptions="Center"/>
+            <c:FontIconLabel Text="{StaticResource Icon.Location}" TextColor="{DynamicResource Color.Foreground}"
+                             FontSize="24" Margin="3,2" VerticalOptions="Center"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

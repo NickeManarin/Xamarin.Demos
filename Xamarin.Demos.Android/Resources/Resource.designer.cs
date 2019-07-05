@@ -26,6 +26,2251 @@ namespace Xamarin.Demos.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_in = global::Xamarin.Demos.Droid.Resource.Animation.abc_fade_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_out = global::Xamarin.Demos.Droid.Resource.Animation.abc_fade_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Xamarin.Demos.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_popup_enter = global::Xamarin.Demos.Droid.Resource.Animation.abc_popup_enter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_popup_exit = global::Xamarin.Demos.Droid.Resource.Animation.abc_popup_exit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Xamarin.Demos.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_in_bottom = global::Xamarin.Demos.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_in_top = global::Xamarin.Demos.Droid.Resource.Animation.abc_slide_in_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_out_bottom = global::Xamarin.Demos.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_out_top = global::Xamarin.Demos.Droid.Resource.Animation.abc_slide_out_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Xamarin.Demos.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Xamarin.Demos.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_snackbar_in = global::Xamarin.Demos.Droid.Resource.Animation.design_snackbar_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_snackbar_out = global::Xamarin.Demos.Droid.Resource.Animation.design_snackbar_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animator.design_appbar_state_list_animator = global::Xamarin.Demos.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarDivider = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarItemBackground = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarPopupTheme = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarSize = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarSplitStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabBarStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabTextStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTheme = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarWidgetTheme = global::Xamarin.Demos.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionDropDownStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionLayout = global::Xamarin.Demos.Droid.Resource.Attribute.actionLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionMenuTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionMenuTextColor = global::Xamarin.Demos.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeBackground = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCloseDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCopyDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCutDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeFindDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModePasteDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeShareDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeSplitBackground = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Xamarin.Demos.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionProviderClass = global::Xamarin.Demos.Droid.Resource.Attribute.actionProviderClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionViewClass = global::Xamarin.Demos.Droid.Resource.Attribute.actionViewClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.activityChooserViewStyle = global::Xamarin.Demos.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Xamarin.Demos.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogCenterButtons = global::Xamarin.Demos.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogStyle = global::Xamarin.Demos.Droid.Resource.Attribute.alertDialogStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogTheme = global::Xamarin.Demos.Droid.Resource.Attribute.alertDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.allowStacking = global::Xamarin.Demos.Droid.Resource.Attribute.allowStacking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alpha = global::Xamarin.Demos.Droid.Resource.Attribute.alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alphabeticModifiers = global::Xamarin.Demos.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.arrowHeadLength = global::Xamarin.Demos.Droid.Resource.Attribute.arrowHeadLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.arrowShaftLength = global::Xamarin.Demos.Droid.Resource.Attribute.arrowShaftLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Xamarin.Demos.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeMaxTextSize = global::Xamarin.Demos.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeMinTextSize = global::Xamarin.Demos.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizePresetSizes = global::Xamarin.Demos.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeStepGranularity = global::Xamarin.Demos.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeTextType = global::Xamarin.Demos.Droid.Resource.Attribute.autoSizeTextType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.background = global::Xamarin.Demos.Droid.Resource.Attribute.background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundSplit = global::Xamarin.Demos.Droid.Resource.Attribute.backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundStacked = global::Xamarin.Demos.Droid.Resource.Attribute.backgroundStacked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundTint = global::Xamarin.Demos.Droid.Resource.Attribute.backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundTintMode = global::Xamarin.Demos.Droid.Resource.Attribute.backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.barLength = global::Xamarin.Demos.Droid.Resource.Attribute.barLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_autoHide = global::Xamarin.Demos.Droid.Resource.Attribute.behavior_autoHide;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_hideable = global::Xamarin.Demos.Droid.Resource.Attribute.behavior_hideable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_overlapTop = global::Xamarin.Demos.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_peekHeight = global::Xamarin.Demos.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_skipCollapsed = global::Xamarin.Demos.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.borderWidth = global::Xamarin.Demos.Droid.Resource.Attribute.borderWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.borderlessButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Xamarin.Demos.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.bottomSheetStyle = global::Xamarin.Demos.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarStyle = global::Xamarin.Demos.Droid.Resource.Attribute.buttonBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonGravity = global::Xamarin.Demos.Droid.Resource.Attribute.buttonGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonPanelSideLayout = global::Xamarin.Demos.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.buttonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonStyleSmall = global::Xamarin.Demos.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonTint = global::Xamarin.Demos.Droid.Resource.Attribute.buttonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonTintMode = global::Xamarin.Demos.Droid.Resource.Attribute.buttonTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardBackgroundColor = global::Xamarin.Demos.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardCornerRadius = global::Xamarin.Demos.Droid.Resource.Attribute.cardCornerRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardElevation = global::Xamarin.Demos.Droid.Resource.Attribute.cardElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardMaxElevation = global::Xamarin.Demos.Droid.Resource.Attribute.cardMaxElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Xamarin.Demos.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardUseCompatPadding = global::Xamarin.Demos.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.checkboxStyle = global::Xamarin.Demos.Droid.Resource.Attribute.checkboxStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.checkedTextViewStyle = global::Xamarin.Demos.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.closeIcon = global::Xamarin.Demos.Droid.Resource.Attribute.closeIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.closeItemLayout = global::Xamarin.Demos.Droid.Resource.Attribute.closeItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapseContentDescription = global::Xamarin.Demos.Droid.Resource.Attribute.collapseContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapseIcon = global::Xamarin.Demos.Droid.Resource.Attribute.collapseIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapsedTitleGravity = global::Xamarin.Demos.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.color = global::Xamarin.Demos.Droid.Resource.Attribute.color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorAccent = global::Xamarin.Demos.Droid.Resource.Attribute.colorAccent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorBackgroundFloating = global::Xamarin.Demos.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorButtonNormal = global::Xamarin.Demos.Droid.Resource.Attribute.colorButtonNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlActivated = global::Xamarin.Demos.Droid.Resource.Attribute.colorControlActivated;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlHighlight = global::Xamarin.Demos.Droid.Resource.Attribute.colorControlHighlight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlNormal = global::Xamarin.Demos.Droid.Resource.Attribute.colorControlNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorError = global::Xamarin.Demos.Droid.Resource.Attribute.colorError;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorPrimary = global::Xamarin.Demos.Droid.Resource.Attribute.colorPrimary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorPrimaryDark = global::Xamarin.Demos.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Xamarin.Demos.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.commitIcon = global::Xamarin.Demos.Droid.Resource.Attribute.commitIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentDescription = global::Xamarin.Demos.Droid.Resource.Attribute.contentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetEnd = global::Xamarin.Demos.Droid.Resource.Attribute.contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetEndWithActions = global::Xamarin.Demos.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetLeft = global::Xamarin.Demos.Droid.Resource.Attribute.contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetRight = global::Xamarin.Demos.Droid.Resource.Attribute.contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetStart = global::Xamarin.Demos.Droid.Resource.Attribute.contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::Xamarin.Demos.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPadding = global::Xamarin.Demos.Droid.Resource.Attribute.contentPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingBottom = global::Xamarin.Demos.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingLeft = global::Xamarin.Demos.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingRight = global::Xamarin.Demos.Droid.Resource.Attribute.contentPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingTop = global::Xamarin.Demos.Droid.Resource.Attribute.contentPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentScrim = global::Xamarin.Demos.Droid.Resource.Attribute.contentScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.controlBackground = global::Xamarin.Demos.Droid.Resource.Attribute.controlBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterEnabled = global::Xamarin.Demos.Droid.Resource.Attribute.counterEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterMaxLength = global::Xamarin.Demos.Droid.Resource.Attribute.counterMaxLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.counterTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.customNavigationLayout = global::Xamarin.Demos.Droid.Resource.Attribute.customNavigationLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.defaultQueryHint = global::Xamarin.Demos.Droid.Resource.Attribute.defaultQueryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dialogPreferredPadding = global::Xamarin.Demos.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dialogTheme = global::Xamarin.Demos.Droid.Resource.Attribute.dialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.displayOptions = global::Xamarin.Demos.Droid.Resource.Attribute.displayOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.divider = global::Xamarin.Demos.Droid.Resource.Attribute.divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerHorizontal = global::Xamarin.Demos.Droid.Resource.Attribute.dividerHorizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerPadding = global::Xamarin.Demos.Droid.Resource.Attribute.dividerPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerVertical = global::Xamarin.Demos.Droid.Resource.Attribute.dividerVertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.drawableSize = global::Xamarin.Demos.Droid.Resource.Attribute.drawableSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.drawerArrowStyle = global::Xamarin.Demos.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dropDownListViewStyle = global::Xamarin.Demos.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Xamarin.Demos.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextBackground = global::Xamarin.Demos.Droid.Resource.Attribute.editTextBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextColor = global::Xamarin.Demos.Droid.Resource.Attribute.editTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextStyle = global::Xamarin.Demos.Droid.Resource.Attribute.editTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.elevation = global::Xamarin.Demos.Droid.Resource.Attribute.elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.errorEnabled = global::Xamarin.Demos.Droid.Resource.Attribute.errorEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.errorTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.errorTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expanded = global::Xamarin.Demos.Droid.Resource.Attribute.expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleGravity = global::Xamarin.Demos.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMargin = global::Xamarin.Demos.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Xamarin.Demos.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Xamarin.Demos.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginStart = global::Xamarin.Demos.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginTop = global::Xamarin.Demos.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fabSize = global::Xamarin.Demos.Droid.Resource.Attribute.fabSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollEnabled = global::Xamarin.Demos.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.font = global::Xamarin.Demos.Droid.Resource.Attribute.font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontFamily = global::Xamarin.Demos.Droid.Resource.Attribute.fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderAuthority = global::Xamarin.Demos.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderCerts = global::Xamarin.Demos.Droid.Resource.Attribute.fontProviderCerts;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderFetchStrategy = global::Xamarin.Demos.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderFetchTimeout = global::Xamarin.Demos.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderPackage = global::Xamarin.Demos.Droid.Resource.Attribute.fontProviderPackage;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderQuery = global::Xamarin.Demos.Droid.Resource.Attribute.fontProviderQuery;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontStyle = global::Xamarin.Demos.Droid.Resource.Attribute.fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontWeight = global::Xamarin.Demos.Droid.Resource.Attribute.fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.foregroundInsidePadding = global::Xamarin.Demos.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.gapBetweenBars = global::Xamarin.Demos.Droid.Resource.Attribute.gapBetweenBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.goIcon = global::Xamarin.Demos.Droid.Resource.Attribute.goIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.headerLayout = global::Xamarin.Demos.Droid.Resource.Attribute.headerLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.height = global::Xamarin.Demos.Droid.Resource.Attribute.height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hideOnContentScroll = global::Xamarin.Demos.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintAnimationEnabled = global::Xamarin.Demos.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintEnabled = global::Xamarin.Demos.Droid.Resource.Attribute.hintEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.hintTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.homeAsUpIndicator = global::Xamarin.Demos.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.homeLayout = global::Xamarin.Demos.Droid.Resource.Attribute.homeLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.icon = global::Xamarin.Demos.Droid.Resource.Attribute.icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconTint = global::Xamarin.Demos.Droid.Resource.Attribute.iconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconTintMode = global::Xamarin.Demos.Droid.Resource.Attribute.iconTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconifiedByDefault = global::Xamarin.Demos.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.imageButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.imageButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.indeterminateProgressStyle = global::Xamarin.Demos.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.initialActivityCount = global::Xamarin.Demos.Droid.Resource.Attribute.initialActivityCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.insetForeground = global::Xamarin.Demos.Droid.Resource.Attribute.insetForeground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.isLightTheme = global::Xamarin.Demos.Droid.Resource.Attribute.isLightTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemBackground = global::Xamarin.Demos.Droid.Resource.Attribute.itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemIconTint = global::Xamarin.Demos.Droid.Resource.Attribute.itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemPadding = global::Xamarin.Demos.Droid.Resource.Attribute.itemPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemTextColor = global::Xamarin.Demos.Droid.Resource.Attribute.itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.keylines = global::Xamarin.Demos.Droid.Resource.Attribute.keylines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout = global::Xamarin.Demos.Droid.Resource.Attribute.layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layoutManager = global::Xamarin.Demos.Droid.Resource.Attribute.layoutManager;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_anchor = global::Xamarin.Demos.Droid.Resource.Attribute.layout_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_anchorGravity = global::Xamarin.Demos.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_behavior = global::Xamarin.Demos.Droid.Resource.Attribute.layout_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_collapseMode = global::Xamarin.Demos.Droid.Resource.Attribute.layout_collapseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Xamarin.Demos.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::Xamarin.Demos.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_insetEdge = global::Xamarin.Demos.Droid.Resource.Attribute.layout_insetEdge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_keyline = global::Xamarin.Demos.Droid.Resource.Attribute.layout_keyline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_scrollFlags = global::Xamarin.Demos.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_scrollInterpolator = global::Xamarin.Demos.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Xamarin.Demos.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listDividerAlertDialog = global::Xamarin.Demos.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listItemLayout = global::Xamarin.Demos.Droid.Resource.Attribute.listItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listLayout = global::Xamarin.Demos.Droid.Resource.Attribute.listLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listMenuViewStyle = global::Xamarin.Demos.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPopupWindowStyle = global::Xamarin.Demos.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeight = global::Xamarin.Demos.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Xamarin.Demos.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Xamarin.Demos.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Xamarin.Demos.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Xamarin.Demos.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.logo = global::Xamarin.Demos.Droid.Resource.Attribute.logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.logoDescription = global::Xamarin.Demos.Droid.Resource.Attribute.logoDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.maxActionInlineWidth = global::Xamarin.Demos.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.maxButtonHeight = global::Xamarin.Demos.Droid.Resource.Attribute.maxButtonHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.measureWithLargestChild = global::Xamarin.Demos.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteButtonTint = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteStopDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteTheme = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.menu = global::Xamarin.Demos.Droid.Resource.Attribute.menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.multiChoiceItemLayout = global::Xamarin.Demos.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationContentDescription = global::Xamarin.Demos.Droid.Resource.Attribute.navigationContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationIcon = global::Xamarin.Demos.Droid.Resource.Attribute.navigationIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationMode = global::Xamarin.Demos.Droid.Resource.Attribute.navigationMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.numericModifiers = global::Xamarin.Demos.Droid.Resource.Attribute.numericModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.overlapAnchor = global::Xamarin.Demos.Droid.Resource.Attribute.overlapAnchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingBottomNoButtons = global::Xamarin.Demos.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingEnd = global::Xamarin.Demos.Droid.Resource.Attribute.paddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingStart = global::Xamarin.Demos.Droid.Resource.Attribute.paddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingTopNoTitle = global::Xamarin.Demos.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelBackground = global::Xamarin.Demos.Droid.Resource.Attribute.panelBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelMenuListTheme = global::Xamarin.Demos.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelMenuListWidth = global::Xamarin.Demos.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleContentDescription = global::Xamarin.Demos.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleDrawable = global::Xamarin.Demos.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleEnabled = global::Xamarin.Demos.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleTint = global::Xamarin.Demos.Droid.Resource.Attribute.passwordToggleTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleTintMode = global::Xamarin.Demos.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupMenuStyle = global::Xamarin.Demos.Droid.Resource.Attribute.popupMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupTheme = global::Xamarin.Demos.Droid.Resource.Attribute.popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupWindowStyle = global::Xamarin.Demos.Droid.Resource.Attribute.popupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.preserveIconSpacing = global::Xamarin.Demos.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.pressedTranslationZ = global::Xamarin.Demos.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.progressBarPadding = global::Xamarin.Demos.Droid.Resource.Attribute.progressBarPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.progressBarStyle = global::Xamarin.Demos.Droid.Resource.Attribute.progressBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.queryBackground = global::Xamarin.Demos.Droid.Resource.Attribute.queryBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.queryHint = global::Xamarin.Demos.Droid.Resource.Attribute.queryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.radioButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.radioButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyle = global::Xamarin.Demos.Droid.Resource.Attribute.ratingBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Xamarin.Demos.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyleSmall = global::Xamarin.Demos.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.reverseLayout = global::Xamarin.Demos.Droid.Resource.Attribute.reverseLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.rippleColor = global::Xamarin.Demos.Droid.Resource.Attribute.rippleColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.scrimAnimationDuration = global::Xamarin.Demos.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::Xamarin.Demos.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchHintIcon = global::Xamarin.Demos.Droid.Resource.Attribute.searchHintIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchIcon = global::Xamarin.Demos.Droid.Resource.Attribute.searchIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchViewStyle = global::Xamarin.Demos.Droid.Resource.Attribute.searchViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.seekBarStyle = global::Xamarin.Demos.Droid.Resource.Attribute.seekBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.selectableItemBackground = global::Xamarin.Demos.Droid.Resource.Attribute.selectableItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Xamarin.Demos.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showAsAction = global::Xamarin.Demos.Droid.Resource.Attribute.showAsAction;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showDividers = global::Xamarin.Demos.Droid.Resource.Attribute.showDividers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showText = global::Xamarin.Demos.Droid.Resource.Attribute.showText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showTitle = global::Xamarin.Demos.Droid.Resource.Attribute.showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.singleChoiceItemLayout = global::Xamarin.Demos.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spanCount = global::Xamarin.Demos.Droid.Resource.Attribute.spanCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinBars = global::Xamarin.Demos.Droid.Resource.Attribute.spinBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Xamarin.Demos.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinnerStyle = global::Xamarin.Demos.Droid.Resource.Attribute.spinnerStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.splitTrack = global::Xamarin.Demos.Droid.Resource.Attribute.splitTrack;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.srcCompat = global::Xamarin.Demos.Droid.Resource.Attribute.srcCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.stackFromEnd = global::Xamarin.Demos.Droid.Resource.Attribute.stackFromEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_above_anchor = global::Xamarin.Demos.Droid.Resource.Attribute.state_above_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_collapsed = global::Xamarin.Demos.Droid.Resource.Attribute.state_collapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_collapsible = global::Xamarin.Demos.Droid.Resource.Attribute.state_collapsible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.statusBarBackground = global::Xamarin.Demos.Droid.Resource.Attribute.statusBarBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.statusBarScrim = global::Xamarin.Demos.Droid.Resource.Attribute.statusBarScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subMenuArrow = global::Xamarin.Demos.Droid.Resource.Attribute.subMenuArrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.submitBackground = global::Xamarin.Demos.Droid.Resource.Attribute.submitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitle = global::Xamarin.Demos.Droid.Resource.Attribute.subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextColor = global::Xamarin.Demos.Droid.Resource.Attribute.subtitleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextStyle = global::Xamarin.Demos.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.suggestionRowLayout = global::Xamarin.Demos.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchMinWidth = global::Xamarin.Demos.Droid.Resource.Attribute.switchMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchPadding = global::Xamarin.Demos.Droid.Resource.Attribute.switchPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchStyle = global::Xamarin.Demos.Droid.Resource.Attribute.switchStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.switchTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabBackground = global::Xamarin.Demos.Droid.Resource.Attribute.tabBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabContentStart = global::Xamarin.Demos.Droid.Resource.Attribute.tabContentStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabGravity = global::Xamarin.Demos.Droid.Resource.Attribute.tabGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabIndicatorColor = global::Xamarin.Demos.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabIndicatorHeight = global::Xamarin.Demos.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMaxWidth = global::Xamarin.Demos.Droid.Resource.Attribute.tabMaxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMinWidth = global::Xamarin.Demos.Droid.Resource.Attribute.tabMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMode = global::Xamarin.Demos.Droid.Resource.Attribute.tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPadding = global::Xamarin.Demos.Droid.Resource.Attribute.tabPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingBottom = global::Xamarin.Demos.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingEnd = global::Xamarin.Demos.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingStart = global::Xamarin.Demos.Droid.Resource.Attribute.tabPaddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingTop = global::Xamarin.Demos.Droid.Resource.Attribute.tabPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabSelectedTextColor = global::Xamarin.Demos.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.tabTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabTextColor = global::Xamarin.Demos.Droid.Resource.Attribute.tabTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAllCaps = global::Xamarin.Demos.Droid.Resource.Attribute.textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Xamarin.Demos.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItem = global::Xamarin.Demos.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::Xamarin.Demos.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Xamarin.Demos.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::Xamarin.Demos.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Xamarin.Demos.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Xamarin.Demos.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Xamarin.Demos.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Xamarin.Demos.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorSearchUrl = global::Xamarin.Demos.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.theme = global::Xamarin.Demos.Droid.Resource.Attribute.theme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thickness = global::Xamarin.Demos.Droid.Resource.Attribute.thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTextPadding = global::Xamarin.Demos.Droid.Resource.Attribute.thumbTextPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTint = global::Xamarin.Demos.Droid.Resource.Attribute.thumbTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTintMode = global::Xamarin.Demos.Droid.Resource.Attribute.thumbTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMark = global::Xamarin.Demos.Droid.Resource.Attribute.tickMark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMarkTint = global::Xamarin.Demos.Droid.Resource.Attribute.tickMarkTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMarkTintMode = global::Xamarin.Demos.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tint = global::Xamarin.Demos.Droid.Resource.Attribute.tint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tintMode = global::Xamarin.Demos.Droid.Resource.Attribute.tintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.title = global::Xamarin.Demos.Droid.Resource.Attribute.title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleEnabled = global::Xamarin.Demos.Droid.Resource.Attribute.titleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMargin = global::Xamarin.Demos.Droid.Resource.Attribute.titleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginBottom = global::Xamarin.Demos.Droid.Resource.Attribute.titleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginEnd = global::Xamarin.Demos.Droid.Resource.Attribute.titleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginStart = global::Xamarin.Demos.Droid.Resource.Attribute.titleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginTop = global::Xamarin.Demos.Droid.Resource.Attribute.titleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMargins = global::Xamarin.Demos.Droid.Resource.Attribute.titleMargins;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextAppearance = global::Xamarin.Demos.Droid.Resource.Attribute.titleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextColor = global::Xamarin.Demos.Droid.Resource.Attribute.titleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextStyle = global::Xamarin.Demos.Droid.Resource.Attribute.titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarId = global::Xamarin.Demos.Droid.Resource.Attribute.toolbarId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Xamarin.Demos.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarStyle = global::Xamarin.Demos.Droid.Resource.Attribute.toolbarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipForegroundColor = global::Xamarin.Demos.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipFrameBackground = global::Xamarin.Demos.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipText = global::Xamarin.Demos.Droid.Resource.Attribute.tooltipText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.track = global::Xamarin.Demos.Droid.Resource.Attribute.track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.trackTint = global::Xamarin.Demos.Droid.Resource.Attribute.trackTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.trackTintMode = global::Xamarin.Demos.Droid.Resource.Attribute.trackTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.useCompatPadding = global::Xamarin.Demos.Droid.Resource.Attribute.useCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.voiceIcon = global::Xamarin.Demos.Droid.Resource.Attribute.voiceIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionBar = global::Xamarin.Demos.Droid.Resource.Attribute.windowActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionBarOverlay = global::Xamarin.Demos.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionModeOverlay = global::Xamarin.Demos.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedHeightMajor = global::Xamarin.Demos.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedHeightMinor = global::Xamarin.Demos.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedWidthMajor = global::Xamarin.Demos.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedWidthMinor = global::Xamarin.Demos.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowMinWidthMajor = global::Xamarin.Demos.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowMinWidthMinor = global::Xamarin.Demos.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowNoTitle = global::Xamarin.Demos.Droid.Resource.Attribute.windowNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Xamarin.Demos.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Xamarin.Demos.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Xamarin.Demos.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Xamarin.Demos.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Xamarin.Demos.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::Xamarin.Demos.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_btn_colored_text_material = global::Xamarin.Demos.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_color_highlight_material = global::Xamarin.Demos.Droid.Resource.Color.abc_color_highlight_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::Xamarin.Demos.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_hint_foreground_material_light = global::Xamarin.Demos.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_input_method_navigation_guard = global::Xamarin.Demos.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Xamarin.Demos.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Xamarin.Demos.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_material_dark = global::Xamarin.Demos.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_material_light = global::Xamarin.Demos.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text = global::Xamarin.Demos.Droid.Resource.Color.abc_search_url_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_normal = global::Xamarin.Demos.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_pressed = global::Xamarin.Demos.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_selected = global::Xamarin.Demos.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_secondary_text_material_dark = global::Xamarin.Demos.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_secondary_text_material_light = global::Xamarin.Demos.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_btn_checkable = global::Xamarin.Demos.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_default = global::Xamarin.Demos.Droid.Resource.Color.abc_tint_default;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_edittext = global::Xamarin.Demos.Droid.Resource.Color.abc_tint_edittext;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_seek_thumb = global::Xamarin.Demos.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_spinner = global::Xamarin.Demos.Droid.Resource.Color.abc_tint_spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_switch_track = global::Xamarin.Demos.Droid.Resource.Color.abc_tint_switch_track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.accent_material_dark = global::Xamarin.Demos.Droid.Resource.Color.accent_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.accent_material_light = global::Xamarin.Demos.Droid.Resource.Color.accent_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_floating_material_dark = global::Xamarin.Demos.Droid.Resource.Color.background_floating_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_floating_material_light = global::Xamarin.Demos.Droid.Resource.Color.background_floating_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_material_dark = global::Xamarin.Demos.Droid.Resource.Color.background_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_material_light = global::Xamarin.Demos.Droid.Resource.Color.background_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Xamarin.Demos.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Xamarin.Demos.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Xamarin.Demos.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Xamarin.Demos.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_dark = global::Xamarin.Demos.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_light = global::Xamarin.Demos.Droid.Resource.Color.bright_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_dark = global::Xamarin.Demos.Droid.Resource.Color.button_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_light = global::Xamarin.Demos.Droid.Resource.Color.button_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_dark_background = global::Xamarin.Demos.Droid.Resource.Color.cardview_dark_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_light_background = global::Xamarin.Demos.Droid.Resource.Color.cardview_light_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_shadow_end_color = global::Xamarin.Demos.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_shadow_start_color = global::Xamarin.Demos.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::Xamarin.Demos.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_error = global::Xamarin.Demos.Droid.Resource.Color.design_error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_end_color = global::Xamarin.Demos.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_mid_color = global::Xamarin.Demos.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_start_color = global::Xamarin.Demos.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Xamarin.Demos.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Xamarin.Demos.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Xamarin.Demos.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Xamarin.Demos.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_snackbar_background_color = global::Xamarin.Demos.Droid.Resource.Color.design_snackbar_background_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_tint_password_toggle = global::Xamarin.Demos.Droid.Resource.Color.design_tint_password_toggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Xamarin.Demos.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Xamarin.Demos.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_material_dark = global::Xamarin.Demos.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_material_light = global::Xamarin.Demos.Droid.Resource.Color.dim_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.foreground_material_dark = global::Xamarin.Demos.Droid.Resource.Color.foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.foreground_material_light = global::Xamarin.Demos.Droid.Resource.Color.foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.highlighted_text_material_dark = global::Xamarin.Demos.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.highlighted_text_material_light = global::Xamarin.Demos.Droid.Resource.Color.highlighted_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_800 = global::Xamarin.Demos.Droid.Resource.Color.material_blue_grey_800;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_900 = global::Xamarin.Demos.Droid.Resource.Color.material_blue_grey_900;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_950 = global::Xamarin.Demos.Droid.Resource.Color.material_blue_grey_950;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_deep_teal_200 = global::Xamarin.Demos.Droid.Resource.Color.material_deep_teal_200;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_deep_teal_500 = global::Xamarin.Demos.Droid.Resource.Color.material_deep_teal_500;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_100 = global::Xamarin.Demos.Droid.Resource.Color.material_grey_100;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_300 = global::Xamarin.Demos.Droid.Resource.Color.material_grey_300;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_50 = global::Xamarin.Demos.Droid.Resource.Color.material_grey_50;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_600 = global::Xamarin.Demos.Droid.Resource.Color.material_grey_600;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_800 = global::Xamarin.Demos.Droid.Resource.Color.material_grey_800;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_850 = global::Xamarin.Demos.Droid.Resource.Color.material_grey_850;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_900 = global::Xamarin.Demos.Droid.Resource.Color.material_grey_900;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_action_color_filter = global::Xamarin.Demos.Droid.Resource.Color.notification_action_color_filter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_icon_bg_color = global::Xamarin.Demos.Droid.Resource.Color.notification_icon_bg_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_material_background_media_default_color = global::Xamarin.Demos.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_dark_material_dark = global::Xamarin.Demos.Droid.Resource.Color.primary_dark_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_dark_material_light = global::Xamarin.Demos.Droid.Resource.Color.primary_dark_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_material_dark = global::Xamarin.Demos.Droid.Resource.Color.primary_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_material_light = global::Xamarin.Demos.Droid.Resource.Color.primary_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_default_material_dark = global::Xamarin.Demos.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_default_material_light = global::Xamarin.Demos.Droid.Resource.Color.primary_text_default_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_disabled_material_dark = global::Xamarin.Demos.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_disabled_material_light = global::Xamarin.Demos.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.ripple_material_dark = global::Xamarin.Demos.Droid.Resource.Color.ripple_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.ripple_material_light = global::Xamarin.Demos.Droid.Resource.Color.ripple_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_default_material_dark = global::Xamarin.Demos.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_default_material_light = global::Xamarin.Demos.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Xamarin.Demos.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_disabled_material_light = global::Xamarin.Demos.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Xamarin.Demos.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Xamarin.Demos.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_material_dark = global::Xamarin.Demos.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_material_light = global::Xamarin.Demos.Droid.Resource.Color.switch_thumb_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Xamarin.Demos.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_normal_material_light = global::Xamarin.Demos.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.tooltip_background_dark = global::Xamarin.Demos.Droid.Resource.Color.tooltip_background_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.tooltip_background_light = global::Xamarin.Demos.Droid.Resource.Color.tooltip_background_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Xamarin.Demos.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Xamarin.Demos.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Xamarin.Demos.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_corner_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_inset_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_padding_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_padding_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Xamarin.Demos.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Xamarin.Demos.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Xamarin.Demos.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_floating_window_z = global::Xamarin.Demos.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Xamarin.Demos.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::Xamarin.Demos.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Xamarin.Demos.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_switch_padding = global::Xamarin.Demos.Droid.Resource.Dimension.abc_switch_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_button_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_caption_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_headline_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_large_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_medium_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_menu_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_small_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Xamarin.Demos.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Xamarin.Demos.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_elevation = global::Xamarin.Demos.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_radius = global::Xamarin.Demos.Droid.Resource.Dimension.cardview_default_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::Xamarin.Demos.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::Xamarin.Demos.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::Xamarin.Demos.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::Xamarin.Demos.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_control_corner_material = global::Xamarin.Demos.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_appbar_elevation = global::Xamarin.Demos.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_height = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Xamarin.Demos.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_border_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_fab_border_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_elevation = global::Xamarin.Demos.Droid.Resource.Dimension.design_fab_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_image_size = global::Xamarin.Demos.Droid.Resource.Dimension.design_fab_image_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_size_mini = global::Xamarin.Demos.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_size_normal = global::Xamarin.Demos.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Xamarin.Demos.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_elevation = global::Xamarin.Demos.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_icon_padding = global::Xamarin.Demos.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_icon_size = global::Xamarin.Demos.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_max_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Xamarin.Demos.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Xamarin.Demos.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_elevation = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_max_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_min_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_text_size = global::Xamarin.Demos.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_max_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_tab_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Xamarin.Demos.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_text_size = global::Xamarin.Demos.Droid.Resource.Dimension.design_tab_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_text_size_2line = global::Xamarin.Demos.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Xamarin.Demos.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.disabled_alpha_material_light = global::Xamarin.Demos.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_default_thickness = global::Xamarin.Demos.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_margin = global::Xamarin.Demos.Droid.Resource.Dimension.fastscroll_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_minimum_range = global::Xamarin.Demos.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Xamarin.Demos.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Xamarin.Demos.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_light = global::Xamarin.Demos.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_alpha_material_dark = global::Xamarin.Demos.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_alpha_material_light = global::Xamarin.Demos.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::Xamarin.Demos.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::Xamarin.Demos.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Xamarin.Demos.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Xamarin.Demos.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Xamarin.Demos.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Xamarin.Demos.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Xamarin.Demos.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Xamarin.Demos.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Xamarin.Demos.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::Xamarin.Demos.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::Xamarin.Demos.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_action_icon_size = global::Xamarin.Demos.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_action_text_size = global::Xamarin.Demos.Droid.Resource.Dimension.notification_action_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_big_circle_margin = global::Xamarin.Demos.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_content_margin_start = global::Xamarin.Demos.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_large_icon_height = global::Xamarin.Demos.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_large_icon_width = global::Xamarin.Demos.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_main_column_padding_top = global::Xamarin.Demos.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_media_narrow_margin = global::Xamarin.Demos.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_right_icon_size = global::Xamarin.Demos.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_right_side_padding_top = global::Xamarin.Demos.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::Xamarin.Demos.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::Xamarin.Demos.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_subtext_size = global::Xamarin.Demos.Droid.Resource.Dimension.notification_subtext_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad = global::Xamarin.Demos.Droid.Resource.Dimension.notification_top_pad;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad_large_text = global::Xamarin.Demos.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_corner_radius = global::Xamarin.Demos.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Xamarin.Demos.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_margin = global::Xamarin.Demos.Droid.Resource.Dimension.tooltip_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Xamarin.Demos.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::Xamarin.Demos.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_vertical_padding = global::Xamarin.Demos.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::Xamarin.Demos.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_y_offset_touch = global::Xamarin.Demos.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_borderless_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_colored_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Xamarin.Demos.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Xamarin.Demos.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_top_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_control_background_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_control_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_dialog_material_background = global::Xamarin.Demos.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_edit_text_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_clear_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_search_api_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Xamarin.Demos.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_item_background_holo_light = global::Xamarin.Demos.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_focused_holo = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Xamarin.Demos.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Xamarin.Demos.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Xamarin.Demos.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Xamarin.Demos.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Xamarin.Demos.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_track_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_switch_thumb_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_tab_indicator_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_cursor_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Xamarin.Demos.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Xamarin.Demos.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Xamarin.Demos.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Xamarin.Demos.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Xamarin.Demos.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Xamarin.Demos.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Xamarin.Demos.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_material = global::Xamarin.Demos.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_vector_test = global::Xamarin.Demos.Droid.Resource.Drawable.abc_vector_test;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_hide_password = global::Xamarin.Demos.Droid.Resource.Drawable.avd_hide_password;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_hide_password_1 = global::Xamarin.Demos.Droid.Resource.Drawable.avd_hide_password_1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_hide_password_2 = global::Xamarin.Demos.Droid.Resource.Drawable.avd_hide_password_2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_hide_password_3 = global::Xamarin.Demos.Droid.Resource.Drawable.avd_hide_password_3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_show_password = global::Xamarin.Demos.Droid.Resource.Drawable.avd_show_password;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_show_password_1 = global::Xamarin.Demos.Droid.Resource.Drawable.avd_show_password_1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_show_password_2 = global::Xamarin.Demos.Droid.Resource.Drawable.avd_show_password_2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_show_password_3 = global::Xamarin.Demos.Droid.Resource.Drawable.avd_show_password_3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.bottom_shadow = global::Xamarin.Demos.Droid.Resource.Drawable.bottom_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::Xamarin.Demos.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_fab_background = global::Xamarin.Demos.Droid.Resource.Drawable.design_fab_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_ic_visibility = global::Xamarin.Demos.Droid.Resource.Drawable.design_ic_visibility;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_ic_visibility_off = global::Xamarin.Demos.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_password_eye = global::Xamarin.Demos.Droid.Resource.Drawable.design_password_eye;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_snackbar_background = global::Xamarin.Demos.Droid.Resource.Drawable.design_snackbar_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_audiotrack_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_audiotrack_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_dialog_close_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_dialog_close_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_00 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_01 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_02 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_03 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_04 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_05 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_06 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_07 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_08 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_09 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_10 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_11 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_12 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_13 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_14 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_15 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_00 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_01 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_02 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_03 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_04 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_05 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_06 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_07 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_08 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_09 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_10 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_11 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_12 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_13 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_14 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_15 = global::Xamarin.Demos.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_pause_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_pause_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_play_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_play_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_media_play_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_stop_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_stop_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_grey = global::Xamarin.Demos.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::Xamarin.Demos.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_tv_light = global::Xamarin.Demos.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connected_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connected_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connecting_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connecting_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_button_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_button_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_close_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_close_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_group_collapse = global::Xamarin.Demos.Droid.Resource.Drawable.mr_group_collapse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_group_expand = global::Xamarin.Demos.Droid.Resource.Drawable.mr_group_expand;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_pause_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_pause_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_play_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_play_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_media_play_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_stop_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_stop_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::Xamarin.Demos.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::Xamarin.Demos.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.navigation_empty_icon = global::Xamarin.Demos.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_action_background = global::Xamarin.Demos.Droid.Resource.Drawable.notification_action_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg = global::Xamarin.Demos.Droid.Resource.Drawable.notification_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low = global::Xamarin.Demos.Droid.Resource.Drawable.notification_bg_low;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low_normal = global::Xamarin.Demos.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low_pressed = global::Xamarin.Demos.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_normal = global::Xamarin.Demos.Droid.Resource.Drawable.notification_bg_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::Xamarin.Demos.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_icon_background = global::Xamarin.Demos.Droid.Resource.Drawable.notification_icon_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_template_icon_bg = global::Xamarin.Demos.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::Xamarin.Demos.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_tile_bg = global::Xamarin.Demos.Droid.Resource.Drawable.notification_tile_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::Xamarin.Demos.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.tooltip_frame_dark = global::Xamarin.Demos.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.tooltip_frame_light = global::Xamarin.Demos.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.top_shadow = global::Xamarin.Demos.Droid.Resource.Drawable.top_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ALT = global::Xamarin.Demos.Droid.Resource.Id.ALT;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.CTRL = global::Xamarin.Demos.Droid.Resource.Id.CTRL;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.FUNCTION = global::Xamarin.Demos.Droid.Resource.Id.FUNCTION;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.META = global::Xamarin.Demos.Droid.Resource.Id.META;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.SHIFT = global::Xamarin.Demos.Droid.Resource.Id.SHIFT;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.SYM = global::Xamarin.Demos.Droid.Resource.Id.SYM;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action0 = global::Xamarin.Demos.Droid.Resource.Id.action0;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar = global::Xamarin.Demos.Droid.Resource.Id.action_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_activity_content = global::Xamarin.Demos.Droid.Resource.Id.action_bar_activity_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_container = global::Xamarin.Demos.Droid.Resource.Id.action_bar_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_root = global::Xamarin.Demos.Droid.Resource.Id.action_bar_root;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_spinner = global::Xamarin.Demos.Droid.Resource.Id.action_bar_spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_subtitle = global::Xamarin.Demos.Droid.Resource.Id.action_bar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_title = global::Xamarin.Demos.Droid.Resource.Id.action_bar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_container = global::Xamarin.Demos.Droid.Resource.Id.action_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_context_bar = global::Xamarin.Demos.Droid.Resource.Id.action_context_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_divider = global::Xamarin.Demos.Droid.Resource.Id.action_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_image = global::Xamarin.Demos.Droid.Resource.Id.action_image;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_menu_divider = global::Xamarin.Demos.Droid.Resource.Id.action_menu_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_menu_presenter = global::Xamarin.Demos.Droid.Resource.Id.action_menu_presenter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_bar = global::Xamarin.Demos.Droid.Resource.Id.action_mode_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_bar_stub = global::Xamarin.Demos.Droid.Resource.Id.action_mode_bar_stub;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_close_button = global::Xamarin.Demos.Droid.Resource.Id.action_mode_close_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_text = global::Xamarin.Demos.Droid.Resource.Id.action_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.actions = global::Xamarin.Demos.Droid.Resource.Id.actions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.activity_chooser_view_content = global::Xamarin.Demos.Droid.Resource.Id.activity_chooser_view_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.add = global::Xamarin.Demos.Droid.Resource.Id.add;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.alertTitle = global::Xamarin.Demos.Droid.Resource.Id.alertTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.all = global::Xamarin.Demos.Droid.Resource.Id.all;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.always = global::Xamarin.Demos.Droid.Resource.Id.always;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.async = global::Xamarin.Demos.Droid.Resource.Id.async;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.auto = global::Xamarin.Demos.Droid.Resource.Id.auto;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.beginning = global::Xamarin.Demos.Droid.Resource.Id.beginning;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.blocking = global::Xamarin.Demos.Droid.Resource.Id.blocking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.bottom = global::Xamarin.Demos.Droid.Resource.Id.bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.buttonPanel = global::Xamarin.Demos.Droid.Resource.Id.buttonPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.cancel_action = global::Xamarin.Demos.Droid.Resource.Id.cancel_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center = global::Xamarin.Demos.Droid.Resource.Id.center;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center_horizontal = global::Xamarin.Demos.Droid.Resource.Id.center_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center_vertical = global::Xamarin.Demos.Droid.Resource.Id.center_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.checkbox = global::Xamarin.Demos.Droid.Resource.Id.checkbox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.chronometer = global::Xamarin.Demos.Droid.Resource.Id.chronometer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.clip_horizontal = global::Xamarin.Demos.Droid.Resource.Id.clip_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.clip_vertical = global::Xamarin.Demos.Droid.Resource.Id.clip_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.collapseActionView = global::Xamarin.Demos.Droid.Resource.Id.collapseActionView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.container = global::Xamarin.Demos.Droid.Resource.Id.container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.contentPanel = global::Xamarin.Demos.Droid.Resource.Id.contentPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.coordinator = global::Xamarin.Demos.Droid.Resource.Id.coordinator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.custom = global::Xamarin.Demos.Droid.Resource.Id.custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.customPanel = global::Xamarin.Demos.Droid.Resource.Id.customPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.decor_content_parent = global::Xamarin.Demos.Droid.Resource.Id.decor_content_parent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.default_activity_button = global::Xamarin.Demos.Droid.Resource.Id.default_activity_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_bottom_sheet = global::Xamarin.Demos.Droid.Resource.Id.design_bottom_sheet;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_action_area = global::Xamarin.Demos.Droid.Resource.Id.design_menu_item_action_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_action_area_stub = global::Xamarin.Demos.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_text = global::Xamarin.Demos.Droid.Resource.Id.design_menu_item_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_navigation_view = global::Xamarin.Demos.Droid.Resource.Id.design_navigation_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.disableHome = global::Xamarin.Demos.Droid.Resource.Id.disableHome;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.edit_query = global::Xamarin.Demos.Droid.Resource.Id.edit_query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.end = global::Xamarin.Demos.Droid.Resource.Id.end;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.end_padder = global::Xamarin.Demos.Droid.Resource.Id.end_padder;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.enterAlways = global::Xamarin.Demos.Droid.Resource.Id.enterAlways;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.enterAlwaysCollapsed = global::Xamarin.Demos.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.exitUntilCollapsed = global::Xamarin.Demos.Droid.Resource.Id.exitUntilCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.expand_activities_button = global::Xamarin.Demos.Droid.Resource.Id.expand_activities_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.expanded_menu = global::Xamarin.Demos.Droid.Resource.Id.expanded_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill = global::Xamarin.Demos.Droid.Resource.Id.fill;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill_horizontal = global::Xamarin.Demos.Droid.Resource.Id.fill_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill_vertical = global::Xamarin.Demos.Droid.Resource.Id.fill_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.@fixed = global::Xamarin.Demos.Droid.Resource.Id.@fixed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.forever = global::Xamarin.Demos.Droid.Resource.Id.forever;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ghost_view = global::Xamarin.Demos.Droid.Resource.Id.ghost_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.home = global::Xamarin.Demos.Droid.Resource.Id.home;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.homeAsUp = global::Xamarin.Demos.Droid.Resource.Id.homeAsUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.icon = global::Xamarin.Demos.Droid.Resource.Id.icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.icon_group = global::Xamarin.Demos.Droid.Resource.Id.icon_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ifRoom = global::Xamarin.Demos.Droid.Resource.Id.ifRoom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.image = global::Xamarin.Demos.Droid.Resource.Id.image;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.info = global::Xamarin.Demos.Droid.Resource.Id.info;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.italic = global::Xamarin.Demos.Droid.Resource.Id.italic;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Xamarin.Demos.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.largeLabel = global::Xamarin.Demos.Droid.Resource.Id.largeLabel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.left = global::Xamarin.Demos.Droid.Resource.Id.left;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.line1 = global::Xamarin.Demos.Droid.Resource.Id.line1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.line3 = global::Xamarin.Demos.Droid.Resource.Id.line3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.listMode = global::Xamarin.Demos.Droid.Resource.Id.listMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.list_item = global::Xamarin.Demos.Droid.Resource.Id.list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.masked = global::Xamarin.Demos.Droid.Resource.Id.masked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.media_actions = global::Xamarin.Demos.Droid.Resource.Id.media_actions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.message = global::Xamarin.Demos.Droid.Resource.Id.message;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.middle = global::Xamarin.Demos.Droid.Resource.Id.middle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mini = global::Xamarin.Demos.Droid.Resource.Id.mini;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_art = global::Xamarin.Demos.Droid.Resource.Id.mr_art;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_list = global::Xamarin.Demos.Droid.Resource.Id.mr_chooser_list;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_desc = global::Xamarin.Demos.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_icon = global::Xamarin.Demos.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_name = global::Xamarin.Demos.Droid.Resource.Id.mr_chooser_route_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_title = global::Xamarin.Demos.Droid.Resource.Id.mr_chooser_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_close = global::Xamarin.Demos.Droid.Resource.Id.mr_close;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_divider = global::Xamarin.Demos.Droid.Resource.Id.mr_control_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_playback_ctrl = global::Xamarin.Demos.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_subtitle = global::Xamarin.Demos.Droid.Resource.Id.mr_control_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_title = global::Xamarin.Demos.Droid.Resource.Id.mr_control_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_title_container = global::Xamarin.Demos.Droid.Resource.Id.mr_control_title_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_custom_control = global::Xamarin.Demos.Droid.Resource.Id.mr_custom_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_default_control = global::Xamarin.Demos.Droid.Resource.Id.mr_default_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_dialog_area = global::Xamarin.Demos.Droid.Resource.Id.mr_dialog_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_expandable_area = global::Xamarin.Demos.Droid.Resource.Id.mr_expandable_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_group_expand_collapse = global::Xamarin.Demos.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_media_main_control = global::Xamarin.Demos.Droid.Resource.Id.mr_media_main_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_name = global::Xamarin.Demos.Droid.Resource.Id.mr_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_playback_control = global::Xamarin.Demos.Droid.Resource.Id.mr_playback_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_title_bar = global::Xamarin.Demos.Droid.Resource.Id.mr_title_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_control = global::Xamarin.Demos.Droid.Resource.Id.mr_volume_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_group_list = global::Xamarin.Demos.Droid.Resource.Id.mr_volume_group_list;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_item_icon = global::Xamarin.Demos.Droid.Resource.Id.mr_volume_item_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_slider = global::Xamarin.Demos.Droid.Resource.Id.mr_volume_slider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.multiply = global::Xamarin.Demos.Droid.Resource.Id.multiply;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.navigation_header_container = global::Xamarin.Demos.Droid.Resource.Id.navigation_header_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.never = global::Xamarin.Demos.Droid.Resource.Id.never;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.none = global::Xamarin.Demos.Droid.Resource.Id.none;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.normal = global::Xamarin.Demos.Droid.Resource.Id.normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_background = global::Xamarin.Demos.Droid.Resource.Id.notification_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_main_column = global::Xamarin.Demos.Droid.Resource.Id.notification_main_column;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_main_column_container = global::Xamarin.Demos.Droid.Resource.Id.notification_main_column_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parallax = global::Xamarin.Demos.Droid.Resource.Id.parallax;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parentPanel = global::Xamarin.Demos.Droid.Resource.Id.parentPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parent_matrix = global::Xamarin.Demos.Droid.Resource.Id.parent_matrix;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.pin = global::Xamarin.Demos.Droid.Resource.Id.pin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.progress_circular = global::Xamarin.Demos.Droid.Resource.Id.progress_circular;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.progress_horizontal = global::Xamarin.Demos.Droid.Resource.Id.progress_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.radio = global::Xamarin.Demos.Droid.Resource.Id.radio;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right = global::Xamarin.Demos.Droid.Resource.Id.right;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right_icon = global::Xamarin.Demos.Droid.Resource.Id.right_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right_side = global::Xamarin.Demos.Droid.Resource.Id.right_side;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.save_image_matrix = global::Xamarin.Demos.Droid.Resource.Id.save_image_matrix;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.save_non_transition_alpha = global::Xamarin.Demos.Droid.Resource.Id.save_non_transition_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.save_scale_type = global::Xamarin.Demos.Droid.Resource.Id.save_scale_type;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.screen = global::Xamarin.Demos.Droid.Resource.Id.screen;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scroll = global::Xamarin.Demos.Droid.Resource.Id.scroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollIndicatorDown = global::Xamarin.Demos.Droid.Resource.Id.scrollIndicatorDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollIndicatorUp = global::Xamarin.Demos.Droid.Resource.Id.scrollIndicatorUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollView = global::Xamarin.Demos.Droid.Resource.Id.scrollView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollable = global::Xamarin.Demos.Droid.Resource.Id.scrollable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_badge = global::Xamarin.Demos.Droid.Resource.Id.search_badge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_bar = global::Xamarin.Demos.Droid.Resource.Id.search_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_button = global::Xamarin.Demos.Droid.Resource.Id.search_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_close_btn = global::Xamarin.Demos.Droid.Resource.Id.search_close_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_edit_frame = global::Xamarin.Demos.Droid.Resource.Id.search_edit_frame;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_go_btn = global::Xamarin.Demos.Droid.Resource.Id.search_go_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_mag_icon = global::Xamarin.Demos.Droid.Resource.Id.search_mag_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_plate = global::Xamarin.Demos.Droid.Resource.Id.search_plate;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_src_text = global::Xamarin.Demos.Droid.Resource.Id.search_src_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_voice_btn = global::Xamarin.Demos.Droid.Resource.Id.search_voice_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.select_dialog_listview = global::Xamarin.Demos.Droid.Resource.Id.select_dialog_listview;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.shortcut = global::Xamarin.Demos.Droid.Resource.Id.shortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showCustom = global::Xamarin.Demos.Droid.Resource.Id.showCustom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showHome = global::Xamarin.Demos.Droid.Resource.Id.showHome;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showTitle = global::Xamarin.Demos.Droid.Resource.Id.showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.smallLabel = global::Xamarin.Demos.Droid.Resource.Id.smallLabel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snackbar_action = global::Xamarin.Demos.Droid.Resource.Id.snackbar_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snackbar_text = global::Xamarin.Demos.Droid.Resource.Id.snackbar_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snap = global::Xamarin.Demos.Droid.Resource.Id.snap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.spacer = global::Xamarin.Demos.Droid.Resource.Id.spacer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.split_action_bar = global::Xamarin.Demos.Droid.Resource.Id.split_action_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_atop = global::Xamarin.Demos.Droid.Resource.Id.src_atop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_in = global::Xamarin.Demos.Droid.Resource.Id.src_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_over = global::Xamarin.Demos.Droid.Resource.Id.src_over;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.start = global::Xamarin.Demos.Droid.Resource.Id.start;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.status_bar_latest_event_content = global::Xamarin.Demos.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.submenuarrow = global::Xamarin.Demos.Droid.Resource.Id.submenuarrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.submit_area = global::Xamarin.Demos.Droid.Resource.Id.submit_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.tabMode = global::Xamarin.Demos.Droid.Resource.Id.tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.tag_transition_group = global::Xamarin.Demos.Droid.Resource.Id.tag_transition_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text = global::Xamarin.Demos.Droid.Resource.Id.text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text2 = global::Xamarin.Demos.Droid.Resource.Id.text2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textSpacerNoButtons = global::Xamarin.Demos.Droid.Resource.Id.textSpacerNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textSpacerNoTitle = global::Xamarin.Demos.Droid.Resource.Id.textSpacerNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text_input_password_toggle = global::Xamarin.Demos.Droid.Resource.Id.text_input_password_toggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textinput_counter = global::Xamarin.Demos.Droid.Resource.Id.textinput_counter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textinput_error = global::Xamarin.Demos.Droid.Resource.Id.textinput_error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.time = global::Xamarin.Demos.Droid.Resource.Id.time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.title = global::Xamarin.Demos.Droid.Resource.Id.title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.titleDividerNoCustom = global::Xamarin.Demos.Droid.Resource.Id.titleDividerNoCustom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.title_template = global::Xamarin.Demos.Droid.Resource.Id.title_template;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.top = global::Xamarin.Demos.Droid.Resource.Id.top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.topPanel = global::Xamarin.Demos.Droid.Resource.Id.topPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.touch_outside = global::Xamarin.Demos.Droid.Resource.Id.touch_outside;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_current_scene = global::Xamarin.Demos.Droid.Resource.Id.transition_current_scene;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_layout_save = global::Xamarin.Demos.Droid.Resource.Id.transition_layout_save;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_position = global::Xamarin.Demos.Droid.Resource.Id.transition_position;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_scene_layoutid_cache = global::Xamarin.Demos.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_transform = global::Xamarin.Demos.Droid.Resource.Id.transition_transform;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.uniform = global::Xamarin.Demos.Droid.Resource.Id.uniform;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.up = global::Xamarin.Demos.Droid.Resource.Id.up;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.useLogo = global::Xamarin.Demos.Droid.Resource.Id.useLogo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.view_offset_helper = global::Xamarin.Demos.Droid.Resource.Id.view_offset_helper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.visible = global::Xamarin.Demos.Droid.Resource.Id.visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.volume_item_container = global::Xamarin.Demos.Droid.Resource.Id.volume_item_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.withText = global::Xamarin.Demos.Droid.Resource.Id.withText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.wrap_content = global::Xamarin.Demos.Droid.Resource.Id.wrap_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Xamarin.Demos.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.abc_config_activityShortDur = global::Xamarin.Demos.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::Xamarin.Demos.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Xamarin.Demos.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.cancel_button_image_alpha = global::Xamarin.Demos.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.config_tooltipAnimTime = global::Xamarin.Demos.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Xamarin.Demos.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.hide_password_duration = global::Xamarin.Demos.Droid.Resource.Integer.hide_password_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Xamarin.Demos.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Xamarin.Demos.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Xamarin.Demos.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.show_password_duration = global::Xamarin.Demos.Droid.Resource.Integer.show_password_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Xamarin.Demos.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::Xamarin.Demos.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::Xamarin.Demos.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_bar_title_item = global::Xamarin.Demos.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_bar_up_container = global::Xamarin.Demos.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_menu_item_layout = global::Xamarin.Demos.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_menu_layout = global::Xamarin.Demos.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_mode_bar = global::Xamarin.Demos.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Xamarin.Demos.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_activity_chooser_view = global::Xamarin.Demos.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Xamarin.Demos.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Xamarin.Demos.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_material = global::Xamarin.Demos.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::Xamarin.Demos.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_dialog_title_material = global::Xamarin.Demos.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_expanded_menu_layout = global::Xamarin.Demos.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Xamarin.Demos.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_icon = global::Xamarin.Demos.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_layout = global::Xamarin.Demos.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_radio = global::Xamarin.Demos.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::Xamarin.Demos.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Xamarin.Demos.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_content_include = global::Xamarin.Demos.Droid.Resource.Layout.abc_screen_content_include;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_simple = global::Xamarin.Demos.Droid.Resource.Layout.abc_screen_simple;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Xamarin.Demos.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_toolbar = global::Xamarin.Demos.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Xamarin.Demos.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_view = global::Xamarin.Demos.Droid.Resource.Layout.abc_search_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_select_dialog_material = global::Xamarin.Demos.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_navigation_item = global::Xamarin.Demos.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Xamarin.Demos.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar = global::Xamarin.Demos.Droid.Resource.Layout.design_layout_snackbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar_include = global::Xamarin.Demos.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_tab_icon = global::Xamarin.Demos.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_tab_text = global::Xamarin.Demos.Droid.Resource.Layout.design_layout_tab_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_menu_item_action_area = global::Xamarin.Demos.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item = global::Xamarin.Demos.Droid.Resource.Layout.design_navigation_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_header = global::Xamarin.Demos.Droid.Resource.Layout.design_navigation_item_header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_separator = global::Xamarin.Demos.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_subheader = global::Xamarin.Demos.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_menu = global::Xamarin.Demos.Droid.Resource.Layout.design_navigation_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_menu_item = global::Xamarin.Demos.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_text_input_password_icon = global::Xamarin.Demos.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_chooser_dialog = global::Xamarin.Demos.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_chooser_list_item = global::Xamarin.Demos.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::Xamarin.Demos.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_controller_volume_item = global::Xamarin.Demos.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_playback_control = global::Xamarin.Demos.Droid.Resource.Layout.mr_playback_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_volume_control = global::Xamarin.Demos.Droid.Resource.Layout.mr_volume_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_action = global::Xamarin.Demos.Droid.Resource.Layout.notification_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_action_tombstone = global::Xamarin.Demos.Droid.Resource.Layout.notification_action_tombstone;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_media_action = global::Xamarin.Demos.Droid.Resource.Layout.notification_media_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_media_cancel_action = global::Xamarin.Demos.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_big_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_custom = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_narrow = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_custom_big = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_custom_big;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_icon_group = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_icon_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_lines_media = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_lines_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_media = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_media_custom = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_media_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_part_chronometer = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_part_time = global::Xamarin.Demos.Droid.Resource.Layout.notification_template_part_time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_item_material = global::Xamarin.Demos.Droid.Resource.Layout.select_dialog_item_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_multichoice_material = global::Xamarin.Demos.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Xamarin.Demos.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Xamarin.Demos.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_bar_home_description = global::Xamarin.Demos.Droid.Resource.String.abc_action_bar_home_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_bar_up_description = global::Xamarin.Demos.Droid.Resource.String.abc_action_bar_up_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_menu_overflow_description = global::Xamarin.Demos.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_mode_done = global::Xamarin.Demos.Droid.Resource.String.abc_action_mode_done;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Xamarin.Demos.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_activitychooserview_choose_application = global::Xamarin.Demos.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_capital_off = global::Xamarin.Demos.Droid.Resource.String.abc_capital_off;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_capital_on = global::Xamarin.Demos.Droid.Resource.String.abc_capital_on;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_body_1_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_body_2_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_button_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_button_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_caption_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_caption_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_display_1_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_display_2_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_display_3_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_display_4_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_headline_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_headline_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_menu_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_menu_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_subhead_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_title_material = global::Xamarin.Demos.Droid.Resource.String.abc_font_family_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_search_hint = global::Xamarin.Demos.Droid.Resource.String.abc_search_hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_clear = global::Xamarin.Demos.Droid.Resource.String.abc_searchview_description_clear;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_query = global::Xamarin.Demos.Droid.Resource.String.abc_searchview_description_query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_search = global::Xamarin.Demos.Droid.Resource.String.abc_searchview_description_search;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_submit = global::Xamarin.Demos.Droid.Resource.String.abc_searchview_description_submit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_voice = global::Xamarin.Demos.Droid.Resource.String.abc_searchview_description_voice;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_shareactionprovider_share_with = global::Xamarin.Demos.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Xamarin.Demos.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_toolbar_collapse_description = global::Xamarin.Demos.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.app_name = global::Xamarin.Demos.Droid.Resource.String.app_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.appbar_scrolling_view_behavior = global::Xamarin.Demos.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.bottom_sheet_behavior = global::Xamarin.Demos.Droid.Resource.String.bottom_sheet_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.character_counter_pattern = global::Xamarin.Demos.Droid.Resource.String.character_counter_pattern;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.hello = global::Xamarin.Demos.Droid.Resource.String.hello;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_button_content_description = global::Xamarin.Demos.Droid.Resource.String.mr_button_content_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_connected = global::Xamarin.Demos.Droid.Resource.String.mr_cast_button_connected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_connecting = global::Xamarin.Demos.Droid.Resource.String.mr_cast_button_connecting;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_disconnected = global::Xamarin.Demos.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_chooser_searching = global::Xamarin.Demos.Droid.Resource.String.mr_chooser_searching;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_chooser_title = global::Xamarin.Demos.Droid.Resource.String.mr_chooser_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_album_art = global::Xamarin.Demos.Droid.Resource.String.mr_controller_album_art;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_casting_screen = global::Xamarin.Demos.Droid.Resource.String.mr_controller_casting_screen;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_close_description = global::Xamarin.Demos.Droid.Resource.String.mr_controller_close_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_collapse_group = global::Xamarin.Demos.Droid.Resource.String.mr_controller_collapse_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_disconnect = global::Xamarin.Demos.Droid.Resource.String.mr_controller_disconnect;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_expand_group = global::Xamarin.Demos.Droid.Resource.String.mr_controller_expand_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_no_info_available = global::Xamarin.Demos.Droid.Resource.String.mr_controller_no_info_available;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_no_media_selected = global::Xamarin.Demos.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_pause = global::Xamarin.Demos.Droid.Resource.String.mr_controller_pause;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_play = global::Xamarin.Demos.Droid.Resource.String.mr_controller_play;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_stop = global::Xamarin.Demos.Droid.Resource.String.mr_controller_stop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_stop_casting = global::Xamarin.Demos.Droid.Resource.String.mr_controller_stop_casting;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_volume_slider = global::Xamarin.Demos.Droid.Resource.String.mr_controller_volume_slider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_system_route_name = global::Xamarin.Demos.Droid.Resource.String.mr_system_route_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_user_route_category_name = global::Xamarin.Demos.Droid.Resource.String.mr_user_route_category_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.password_toggle_content_description = global::Xamarin.Demos.Droid.Resource.String.password_toggle_content_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye = global::Xamarin.Demos.Droid.Resource.String.path_password_eye;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye_mask_strike_through = global::Xamarin.Demos.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye_mask_visible = global::Xamarin.Demos.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_strike_through = global::Xamarin.Demos.Droid.Resource.String.path_password_strike_through;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.search_menu_title = global::Xamarin.Demos.Droid.Resource.String.search_menu_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.status_bar_notification_info_overflow = global::Xamarin.Demos.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.AlertDialog_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Xamarin.Demos.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::Xamarin.Demos.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Xamarin.Demos.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Xamarin.Demos.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Xamarin.Demos.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_CardView = global::Xamarin.Demos.Droid.Resource.Style.Base_CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Xamarin.Demos.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Xamarin.Demos.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Xamarin.Demos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Xamarin.Demos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Xamarin.Demos.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Xamarin.Demos.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Xamarin.Demos.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Xamarin.Demos.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Xamarin.Demos.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView = global::Xamarin.Demos.Droid.Resource.Style.CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView_Dark = global::Xamarin.Demos.Droid.Resource.Style.CardView_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView_Light = global::Xamarin.Demos.Droid.Resource.Style.CardView_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Platform_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Xamarin.Demos.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V21_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V25_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Xamarin.Demos.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Xamarin.Demos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Xamarin.Demos.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Xamarin.Demos.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Counter = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Error = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Hint = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Tab = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Xamarin.Demos.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Xamarin.Demos.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design = global::Xamarin.Demos.Droid.Resource.Style.Theme_Design;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Xamarin.Demos.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light = global::Xamarin.Demos.Droid.Resource.Style.Theme_Design_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Xamarin.Demos.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Xamarin.Demos.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_NoActionBar = global::Xamarin.Demos.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter = global::Xamarin.Demos.Droid.Resource.Style.Theme_MediaRouter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_Light = global::Xamarin.Demos.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Xamarin.Demos.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Xamarin.Demos.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::Xamarin.Demos.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_EditText = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Xamarin.Demos.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::Xamarin.Demos.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::Xamarin.Demos.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_NavigationView = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_Snackbar = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_TabLayout = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Xamarin.Demos.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Xamarin.Demos.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Xamarin.Demos.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_background = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_displayOptions = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_divider = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_elevation = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_height = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_homeLayout = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_icon = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_itemPadding = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_logo = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_navigationMode = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_popupTheme = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_subtitle = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_title = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBarLayout = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Xamarin.Demos.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuItemView = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuView = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_background = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMode_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_height = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMode_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Xamarin.Demos.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView = global::Xamarin.Demos.Droid.Resource.Styleable.ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Xamarin.Demos.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog = global::Xamarin.Demos.Droid.Resource.Styleable.AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_android_layout = global::Xamarin.Demos.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Xamarin.Demos.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Xamarin.Demos.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_listLayout = global::Xamarin.Demos.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Xamarin.Demos.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_showTitle = global::Xamarin.Demos.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Xamarin.Demos.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_background = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_elevation = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_expanded = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Xamarin.Demos.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatImageView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_tint = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorError = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Xamarin.Demos.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView = global::Xamarin.Demos.Droid.Resource.Styleable.BottomNavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_elevation = global::Xamarin.Demos.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::Xamarin.Demos.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::Xamarin.Demos.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::Xamarin.Demos.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_menu = global::Xamarin.Demos.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::Xamarin.Demos.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Xamarin.Demos.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Xamarin.Demos.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Xamarin.Demos.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ButtonBarLayout = global::Xamarin.Demos.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Xamarin.Demos.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView = global::Xamarin.Demos.Droid.Resource.Styleable.CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_android_minHeight = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_android_minWidth = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardElevation = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPadding = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Xamarin.Demos.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Xamarin.Demos.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem = global::Xamarin.Demos.Droid.Resource.Styleable.ColorStateListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::Xamarin.Demos.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::Xamarin.Demos.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::Xamarin.Demos.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton = global::Xamarin.Demos.Droid.Resource.Styleable.CompoundButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_android_button = global::Xamarin.Demos.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Xamarin.Demos.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Xamarin.Demos.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Xamarin.Demos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme = global::Xamarin.Demos.Droid.Resource.Styleable.DesignTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Xamarin.Demos.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Xamarin.Demos.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Xamarin.Demos.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Xamarin.Demos.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamilyFont;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_font = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_font = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::Xamarin.Demos.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout = global::Xamarin.Demos.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Xamarin.Demos.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Xamarin.Demos.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Xamarin.Demos.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Xamarin.Demos.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow = global::Xamarin.Demos.Droid.Resource.Styleable.ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Xamarin.Demos.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Xamarin.Demos.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton = global::Xamarin.Demos.Droid.Resource.Styleable.MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::Xamarin.Demos.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::Xamarin.Demos.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::Xamarin.Demos.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup = global::Xamarin.Demos.Droid.Resource.Styleable.MenuGroup;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Xamarin.Demos.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Xamarin.Demos.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_id = global::Xamarin.Demos.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Xamarin.Demos.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Xamarin.Demos.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_visible = global::Xamarin.Demos.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionLayout = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_checkable = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_checked = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_enabled = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_icon = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_id = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_onClick = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_title = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_visible = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_contentDescription = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_iconTint = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_iconTintMode = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_numericModifiers = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_showAsAction = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_tooltipText = global::Xamarin.Demos.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::Xamarin.Demos.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_background = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_elevation = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_headerLayout = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemBackground = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_menu = global::Xamarin.Demos.Droid.Resource.Styleable.NavigationView_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow = global::Xamarin.Demos.Droid.Resource.Styleable.PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Xamarin.Demos.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Xamarin.Demos.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Xamarin.Demos.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Xamarin.Demos.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Xamarin.Demos.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView = global::Xamarin.Demos.Droid.Resource.Styleable.RecycleListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Xamarin.Demos.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Xamarin.Demos.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_spanCount = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Xamarin.Demos.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Xamarin.Demos.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Xamarin.Demos.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::Xamarin.Demos.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Xamarin.Demos.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_focusable = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_inputType = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_closeIcon = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_commitIcon = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_goIcon = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_layout = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_queryBackground = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_queryHint = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_searchIcon = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_submitBackground = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_voiceIcon = global::Xamarin.Demos.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout = global::Xamarin.Demos.Droid.Resource.Styleable.SnackbarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Xamarin.Demos.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Xamarin.Demos.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Xamarin.Demos.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner = global::Xamarin.Demos.Droid.Resource.Styleable.Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Xamarin.Demos.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_entries = global::Xamarin.Demos.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Xamarin.Demos.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_prompt = global::Xamarin.Demos.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_popupTheme = global::Xamarin.Demos.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_showText = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_track = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::Xamarin.Demos.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem = global::Xamarin.Demos.Droid.Resource.Styleable.TabItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_icon = global::Xamarin.Demos.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_layout = global::Xamarin.Demos.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_text = global::Xamarin.Demos.Droid.Resource.Styleable.TabItem_android_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabBackground = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabGravity = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMode = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPadding = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Xamarin.Demos.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_fontFamily = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Xamarin.Demos.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Xamarin.Demos.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_android_gravity = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_logo = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_logoDescription = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_popupTheme = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitle = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_title = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMargin = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMargins = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Xamarin.Demos.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View = global::Xamarin.Demos.Droid.Resource.Styleable.View;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_android_focusable = global::Xamarin.Demos.Droid.Resource.Styleable.View_android_focusable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_android_theme = global::Xamarin.Demos.Droid.Resource.Styleable.View_android_theme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingEnd = global::Xamarin.Demos.Droid.Resource.Styleable.View_paddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingStart = global::Xamarin.Demos.Droid.Resource.Styleable.View_paddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_theme = global::Xamarin.Demos.Droid.Resource.Styleable.View_theme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper = global::Xamarin.Demos.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Xamarin.Demos.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Xamarin.Demos.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Xamarin.Demos.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat = global::Xamarin.Demos.Droid.Resource.Styleable.ViewStubCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Xamarin.Demos.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Xamarin.Demos.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Xamarin.Demos.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Xamarin.Demos.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::Xamarin.Demos.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Xamarin.Demos.Droid.Resource.Attribute.font;
@@ -5778,695 +8023,701 @@ namespace Xamarin.Demos.Droid
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f020135
-			public const int avd_hide_password_1 = 2130837813;
-			
-			// aapt resource value: 0x7f020136
-			public const int avd_hide_password_2 = 2130837814;
-			
 			// aapt resource value: 0x7f020137
-			public const int avd_hide_password_3 = 2130837815;
+			public const int avd_hide_password_1 = 2130837815;
+			
+			// aapt resource value: 0x7f020138
+			public const int avd_hide_password_2 = 2130837816;
+			
+			// aapt resource value: 0x7f020139
+			public const int avd_hide_password_3 = 2130837817;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f020138
-			public const int avd_show_password_1 = 2130837816;
-			
-			// aapt resource value: 0x7f020139
-			public const int avd_show_password_2 = 2130837817;
-			
 			// aapt resource value: 0x7f02013a
-			public const int avd_show_password_3 = 2130837818;
+			public const int avd_show_password_1 = 2130837818;
+			
+			// aapt resource value: 0x7f02013b
+			public const int avd_show_password_2 = 2130837819;
+			
+			// aapt resource value: 0x7f02013c
+			public const int avd_show_password_3 = 2130837820;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_bottom_navigation_item_background = 2130837590;
+			public const int bottom_shadow = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_fab_background = 2130837591;
+			public const int design_bottom_navigation_item_background = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility = 2130837592;
+			public const int design_fab_background = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_ic_visibility_off = 2130837593;
+			public const int design_ic_visibility = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_password_eye = 2130837594;
+			public const int design_ic_visibility_off = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_snackbar_background = 2130837595;
+			public const int design_password_eye = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_dark = 2130837596;
+			public const int design_snackbar_background = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_audiotrack_light = 2130837597;
+			public const int ic_audiotrack_dark = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_dark = 2130837598;
+			public const int ic_audiotrack_light = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_dialog_close_light = 2130837599;
+			public const int ic_dialog_close_dark = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_00 = 2130837600;
+			public const int ic_dialog_close_light = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_01 = 2130837601;
+			public const int ic_group_collapse_00 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_02 = 2130837602;
+			public const int ic_group_collapse_01 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_03 = 2130837603;
+			public const int ic_group_collapse_02 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_04 = 2130837604;
+			public const int ic_group_collapse_03 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_05 = 2130837605;
+			public const int ic_group_collapse_04 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_06 = 2130837606;
+			public const int ic_group_collapse_05 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_07 = 2130837607;
+			public const int ic_group_collapse_06 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_08 = 2130837608;
+			public const int ic_group_collapse_07 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_09 = 2130837609;
+			public const int ic_group_collapse_08 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_10 = 2130837610;
+			public const int ic_group_collapse_09 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_11 = 2130837611;
+			public const int ic_group_collapse_10 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_12 = 2130837612;
+			public const int ic_group_collapse_11 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_13 = 2130837613;
+			public const int ic_group_collapse_12 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_14 = 2130837614;
+			public const int ic_group_collapse_13 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_15 = 2130837615;
+			public const int ic_group_collapse_14 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_00 = 2130837616;
+			public const int ic_group_collapse_15 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_01 = 2130837617;
+			public const int ic_group_expand_00 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_02 = 2130837618;
+			public const int ic_group_expand_01 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_03 = 2130837619;
+			public const int ic_group_expand_02 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_04 = 2130837620;
+			public const int ic_group_expand_03 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_05 = 2130837621;
+			public const int ic_group_expand_04 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_06 = 2130837622;
+			public const int ic_group_expand_05 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_07 = 2130837623;
+			public const int ic_group_expand_06 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_08 = 2130837624;
+			public const int ic_group_expand_07 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_09 = 2130837625;
+			public const int ic_group_expand_08 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_10 = 2130837626;
+			public const int ic_group_expand_09 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_11 = 2130837627;
+			public const int ic_group_expand_10 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_12 = 2130837628;
+			public const int ic_group_expand_11 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_13 = 2130837629;
+			public const int ic_group_expand_12 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_14 = 2130837630;
+			public const int ic_group_expand_13 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_15 = 2130837631;
+			public const int ic_group_expand_14 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_dark = 2130837632;
+			public const int ic_group_expand_15 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_pause_light = 2130837633;
+			public const int ic_media_pause_dark = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_dark = 2130837634;
+			public const int ic_media_pause_light = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_play_light = 2130837635;
+			public const int ic_media_play_dark = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_dark = 2130837636;
+			public const int ic_media_play_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_stop_light = 2130837637;
+			public const int ic_media_stop_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_dark = 2130837638;
+			public const int ic_media_stop_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_00_light = 2130837639;
+			public const int ic_mr_button_connected_00_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_dark = 2130837640;
+			public const int ic_mr_button_connected_00_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_01_light = 2130837641;
+			public const int ic_mr_button_connected_01_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_dark = 2130837642;
+			public const int ic_mr_button_connected_01_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_02_light = 2130837643;
+			public const int ic_mr_button_connected_02_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_dark = 2130837644;
+			public const int ic_mr_button_connected_02_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_03_light = 2130837645;
+			public const int ic_mr_button_connected_03_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_dark = 2130837646;
+			public const int ic_mr_button_connected_03_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_04_light = 2130837647;
+			public const int ic_mr_button_connected_04_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_dark = 2130837648;
+			public const int ic_mr_button_connected_04_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_05_light = 2130837649;
+			public const int ic_mr_button_connected_05_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_dark = 2130837650;
+			public const int ic_mr_button_connected_05_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_06_light = 2130837651;
+			public const int ic_mr_button_connected_06_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_dark = 2130837652;
+			public const int ic_mr_button_connected_06_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_07_light = 2130837653;
+			public const int ic_mr_button_connected_07_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_dark = 2130837654;
+			public const int ic_mr_button_connected_07_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_08_light = 2130837655;
+			public const int ic_mr_button_connected_08_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_dark = 2130837656;
+			public const int ic_mr_button_connected_08_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_09_light = 2130837657;
+			public const int ic_mr_button_connected_09_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_dark = 2130837658;
+			public const int ic_mr_button_connected_09_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_10_light = 2130837659;
+			public const int ic_mr_button_connected_10_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_dark = 2130837660;
+			public const int ic_mr_button_connected_10_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_11_light = 2130837661;
+			public const int ic_mr_button_connected_11_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_dark = 2130837662;
+			public const int ic_mr_button_connected_11_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_12_light = 2130837663;
+			public const int ic_mr_button_connected_12_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_dark = 2130837664;
+			public const int ic_mr_button_connected_12_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_13_light = 2130837665;
+			public const int ic_mr_button_connected_13_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_dark = 2130837666;
+			public const int ic_mr_button_connected_13_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_14_light = 2130837667;
+			public const int ic_mr_button_connected_14_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_dark = 2130837668;
+			public const int ic_mr_button_connected_14_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_15_light = 2130837669;
+			public const int ic_mr_button_connected_15_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_dark = 2130837670;
+			public const int ic_mr_button_connected_15_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_16_light = 2130837671;
+			public const int ic_mr_button_connected_16_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_dark = 2130837672;
+			public const int ic_mr_button_connected_16_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_17_light = 2130837673;
+			public const int ic_mr_button_connected_17_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_dark = 2130837674;
+			public const int ic_mr_button_connected_17_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_18_light = 2130837675;
+			public const int ic_mr_button_connected_18_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_dark = 2130837676;
+			public const int ic_mr_button_connected_18_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_19_light = 2130837677;
+			public const int ic_mr_button_connected_19_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_dark = 2130837678;
+			public const int ic_mr_button_connected_19_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_20_light = 2130837679;
+			public const int ic_mr_button_connected_20_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_dark = 2130837680;
+			public const int ic_mr_button_connected_20_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_21_light = 2130837681;
+			public const int ic_mr_button_connected_21_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_dark = 2130837682;
+			public const int ic_mr_button_connected_21_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_22_light = 2130837683;
+			public const int ic_mr_button_connected_22_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_23_dark = 2130837684;
+			public const int ic_mr_button_connected_22_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_23_light = 2130837685;
+			public const int ic_mr_button_connected_23_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_24_dark = 2130837686;
+			public const int ic_mr_button_connected_23_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_24_light = 2130837687;
+			public const int ic_mr_button_connected_24_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_25_dark = 2130837688;
+			public const int ic_mr_button_connected_24_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_25_light = 2130837689;
+			public const int ic_mr_button_connected_25_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_26_dark = 2130837690;
+			public const int ic_mr_button_connected_25_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_26_light = 2130837691;
+			public const int ic_mr_button_connected_26_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_27_dark = 2130837692;
+			public const int ic_mr_button_connected_26_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_27_light = 2130837693;
+			public const int ic_mr_button_connected_27_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_28_dark = 2130837694;
+			public const int ic_mr_button_connected_27_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_28_light = 2130837695;
+			public const int ic_mr_button_connected_28_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_29_dark = 2130837696;
+			public const int ic_mr_button_connected_28_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_29_light = 2130837697;
+			public const int ic_mr_button_connected_29_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_30_dark = 2130837698;
+			public const int ic_mr_button_connected_29_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_30_light = 2130837699;
+			public const int ic_mr_button_connected_30_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_00_dark = 2130837700;
+			public const int ic_mr_button_connected_30_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_00_light = 2130837701;
+			public const int ic_mr_button_connecting_00_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_01_dark = 2130837702;
+			public const int ic_mr_button_connecting_00_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_01_light = 2130837703;
+			public const int ic_mr_button_connecting_01_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_02_dark = 2130837704;
+			public const int ic_mr_button_connecting_01_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_02_light = 2130837705;
+			public const int ic_mr_button_connecting_02_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_03_dark = 2130837706;
+			public const int ic_mr_button_connecting_02_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_03_light = 2130837707;
+			public const int ic_mr_button_connecting_03_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_04_dark = 2130837708;
+			public const int ic_mr_button_connecting_03_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_04_light = 2130837709;
+			public const int ic_mr_button_connecting_04_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_05_dark = 2130837710;
+			public const int ic_mr_button_connecting_04_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_05_light = 2130837711;
+			public const int ic_mr_button_connecting_05_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_06_dark = 2130837712;
+			public const int ic_mr_button_connecting_05_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_06_light = 2130837713;
+			public const int ic_mr_button_connecting_06_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_07_dark = 2130837714;
+			public const int ic_mr_button_connecting_06_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_07_light = 2130837715;
+			public const int ic_mr_button_connecting_07_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_08_dark = 2130837716;
+			public const int ic_mr_button_connecting_07_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_08_light = 2130837717;
+			public const int ic_mr_button_connecting_08_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_09_dark = 2130837718;
+			public const int ic_mr_button_connecting_08_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_09_light = 2130837719;
+			public const int ic_mr_button_connecting_09_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_10_dark = 2130837720;
+			public const int ic_mr_button_connecting_09_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_10_light = 2130837721;
+			public const int ic_mr_button_connecting_10_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_11_dark = 2130837722;
+			public const int ic_mr_button_connecting_10_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_11_light = 2130837723;
+			public const int ic_mr_button_connecting_11_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_12_dark = 2130837724;
+			public const int ic_mr_button_connecting_11_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_12_light = 2130837725;
+			public const int ic_mr_button_connecting_12_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_13_dark = 2130837726;
+			public const int ic_mr_button_connecting_12_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_13_light = 2130837727;
+			public const int ic_mr_button_connecting_13_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_14_dark = 2130837728;
+			public const int ic_mr_button_connecting_13_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_14_light = 2130837729;
+			public const int ic_mr_button_connecting_14_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_15_dark = 2130837730;
+			public const int ic_mr_button_connecting_14_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_15_light = 2130837731;
+			public const int ic_mr_button_connecting_15_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_16_dark = 2130837732;
+			public const int ic_mr_button_connecting_15_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_16_light = 2130837733;
+			public const int ic_mr_button_connecting_16_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_17_dark = 2130837734;
+			public const int ic_mr_button_connecting_16_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_17_light = 2130837735;
+			public const int ic_mr_button_connecting_17_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_18_dark = 2130837736;
+			public const int ic_mr_button_connecting_17_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_18_light = 2130837737;
+			public const int ic_mr_button_connecting_18_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_19_dark = 2130837738;
+			public const int ic_mr_button_connecting_18_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_19_light = 2130837739;
+			public const int ic_mr_button_connecting_19_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_20_dark = 2130837740;
+			public const int ic_mr_button_connecting_19_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_20_light = 2130837741;
+			public const int ic_mr_button_connecting_20_dark = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_21_dark = 2130837742;
+			public const int ic_mr_button_connecting_20_light = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_21_light = 2130837743;
+			public const int ic_mr_button_connecting_21_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_22_dark = 2130837744;
+			public const int ic_mr_button_connecting_21_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_22_light = 2130837745;
+			public const int ic_mr_button_connecting_22_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_23_dark = 2130837746;
+			public const int ic_mr_button_connecting_22_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_23_light = 2130837747;
+			public const int ic_mr_button_connecting_23_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_24_dark = 2130837748;
+			public const int ic_mr_button_connecting_23_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_24_light = 2130837749;
+			public const int ic_mr_button_connecting_24_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_25_dark = 2130837750;
+			public const int ic_mr_button_connecting_24_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_25_light = 2130837751;
+			public const int ic_mr_button_connecting_25_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_26_dark = 2130837752;
+			public const int ic_mr_button_connecting_25_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_26_light = 2130837753;
+			public const int ic_mr_button_connecting_26_dark = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_27_dark = 2130837754;
+			public const int ic_mr_button_connecting_26_light = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_27_light = 2130837755;
+			public const int ic_mr_button_connecting_27_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_28_dark = 2130837756;
+			public const int ic_mr_button_connecting_27_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_28_light = 2130837757;
+			public const int ic_mr_button_connecting_28_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_29_dark = 2130837758;
+			public const int ic_mr_button_connecting_28_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_29_light = 2130837759;
+			public const int ic_mr_button_connecting_29_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_30_dark = 2130837760;
+			public const int ic_mr_button_connecting_29_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_30_light = 2130837761;
+			public const int ic_mr_button_connecting_30_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_disabled_dark = 2130837762;
+			public const int ic_mr_button_connecting_30_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_disabled_light = 2130837763;
+			public const int ic_mr_button_disabled_dark = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_disconnected_dark = 2130837764;
+			public const int ic_mr_button_disabled_light = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_disconnected_light = 2130837765;
+			public const int ic_mr_button_disconnected_dark = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_grey = 2130837766;
+			public const int ic_mr_button_disconnected_light = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mtrl_chip_checked_black = 2130837767;
+			public const int ic_mr_button_grey = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mtrl_chip_checked_circle = 2130837768;
+			public const int ic_mtrl_chip_checked_black = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mtrl_chip_close_circle = 2130837769;
+			public const int ic_mtrl_chip_checked_circle = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_vol_type_speaker_dark = 2130837770;
+			public const int ic_mtrl_chip_close_circle = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_vol_type_speaker_group_dark = 2130837771;
+			public const int ic_vol_type_speaker_dark = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_vol_type_speaker_group_light = 2130837772;
+			public const int ic_vol_type_speaker_group_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_vol_type_speaker_light = 2130837773;
+			public const int ic_vol_type_speaker_group_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_vol_type_tv_dark = 2130837774;
+			public const int ic_vol_type_speaker_light = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_vol_type_tv_light = 2130837775;
+			public const int ic_vol_type_tv_dark = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int mr_button_connected_dark = 2130837776;
+			public const int ic_vol_type_tv_light = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int mr_button_connected_light = 2130837777;
+			public const int mr_button_connected_dark = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int mr_button_connecting_dark = 2130837778;
+			public const int mr_button_connected_light = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int mr_button_connecting_light = 2130837779;
+			public const int mr_button_connecting_dark = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int mr_button_dark = 2130837780;
+			public const int mr_button_connecting_light = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int mr_button_light = 2130837781;
+			public const int mr_button_dark = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int mr_dialog_close_dark = 2130837782;
+			public const int mr_button_light = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int mr_dialog_close_light = 2130837783;
+			public const int mr_dialog_close_dark = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int mr_dialog_material_background_dark = 2130837784;
+			public const int mr_dialog_close_light = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int mr_dialog_material_background_light = 2130837785;
+			public const int mr_dialog_material_background_dark = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int mr_group_collapse = 2130837786;
+			public const int mr_dialog_material_background_light = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int mr_group_expand = 2130837787;
+			public const int mr_group_collapse = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int mr_media_pause_dark = 2130837788;
+			public const int mr_group_expand = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mr_media_pause_light = 2130837789;
+			public const int mr_media_pause_dark = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mr_media_play_dark = 2130837790;
+			public const int mr_media_pause_light = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_media_play_light = 2130837791;
+			public const int mr_media_play_dark = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int mr_media_stop_dark = 2130837792;
+			public const int mr_media_play_light = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int mr_media_stop_light = 2130837793;
+			public const int mr_media_stop_dark = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int mr_vol_type_audiotrack_dark = 2130837794;
+			public const int mr_media_stop_light = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int mr_vol_type_audiotrack_light = 2130837795;
+			public const int mr_vol_type_audiotrack_dark = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int mtrl_snackbar_background = 2130837796;
+			public const int mr_vol_type_audiotrack_light = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int mtrl_tabs_default_indicator = 2130837797;
+			public const int mtrl_snackbar_background = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int navigation_empty_icon = 2130837798;
+			public const int mtrl_tabs_default_indicator = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int notification_action_background = 2130837799;
+			public const int navigation_empty_icon = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int notification_bg = 2130837800;
+			public const int notification_action_background = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int notification_bg_low = 2130837801;
+			public const int notification_bg = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int notification_bg_low_normal = 2130837802;
+			public const int notification_bg_low = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int notification_bg_low_pressed = 2130837803;
+			public const int notification_bg_low_normal = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int notification_bg_normal = 2130837804;
+			public const int notification_bg_low_pressed = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
-			public const int notification_bg_normal_pressed = 2130837805;
+			public const int notification_bg_normal = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int notification_icon_background = 2130837806;
-			
-			// aapt resource value: 0x7f020133
-			public const int notification_template_icon_bg = 2130837811;
-			
-			// aapt resource value: 0x7f020134
-			public const int notification_template_icon_low_bg = 2130837812;
+			public const int notification_bg_normal_pressed = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int notification_tile_bg = 2130837807;
+			public const int notification_icon_background = 2130837807;
+			
+			// aapt resource value: 0x7f020135
+			public const int notification_template_icon_bg = 2130837813;
+			
+			// aapt resource value: 0x7f020136
+			public const int notification_template_icon_low_bg = 2130837814;
 			
 			// aapt resource value: 0x7f020130
-			public const int notify_panel_notification_icon_bg = 2130837808;
+			public const int notification_tile_bg = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int tooltip_frame_dark = 2130837809;
+			public const int notify_panel_notification_icon_bg = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int tooltip_frame_light = 2130837810;
+			public const int tooltip_frame_dark = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int tooltip_frame_light = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int top_shadow = 2130837812;
 			
 			static Drawable()
 			{
@@ -7767,6 +10018,9 @@ namespace Xamarin.Demos.Droid
 			// aapt resource value: 0x7f0b0032
 			public const int abc_toolbar_collapse_description = 2131427378;
 			
+			// aapt resource value: 0x7f0b004f
+			public const int app_name = 2131427407;
+			
 			// aapt resource value: 0x7f0b0040
 			public const int appbar_scrolling_view_behavior = 2131427392;
 			
@@ -7784,6 +10038,9 @@ namespace Xamarin.Demos.Droid
 			
 			// aapt resource value: 0x7f0b0045
 			public const int fab_transformation_sheet_behavior = 2131427397;
+			
+			// aapt resource value: 0x7f0b004e
+			public const int hello = 2131427406;
 			
 			// aapt resource value: 0x7f0b0046
 			public const int hide_bottom_view_on_scroll_behavior = 2131427398;
@@ -9453,7 +11710,10 @@ namespace Xamarin.Demos.Droid
 		{
 			
 			// aapt resource value: 0x7f080000
-			public const int xamarin_essentials_fileprovider_file_paths = 2131230720;
+			public const int file_paths = 2131230720;
+			
+			// aapt resource value: 0x7f080001
+			public const int xamarin_essentials_fileprovider_file_paths = 2131230721;
 			
 			static Xml()
 			{

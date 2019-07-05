@@ -1,0 +1,50 @@
+﻿<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:f="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:t="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:r="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
+             xmlns:h="clr-namespace:Sharpnado.Presentation.Forms.Effects;assembly=Sharpnado.Presentation.Forms"
+             x:Class="Xamarin.Demos.Pages.Photos" x:Name="ThisView">
+
+    <Grid VerticalOptions="CenterAndExpand" Margin="20,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Text="Photos" Margin="0,10,0,5"/>
+        <r:HorizontalListView Grid.Row="1" x:Name="MainListView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ColumnCount="3" HeightRequest="-1"
+                              CollectionPadding="2" ItemSpacing="2" EnableDragAndDrop="True" ItemHeight="180" ItemsSource="{Binding Items, Mode=TwoWay}" ListLayout="Grid" 
+                              DragAndDropEndedCommand="{Binding ReorderedCommand}" ChildrenReordered="MainListView_ChildrenReordered">
+            <r:HorizontalListView.ItemTemplate>
+                <DataTemplate>
+                    <r:DraggableViewCell x:Name="DraggableViewCell">
+                        <ContentView>
+                            <Grid Margin="5" h:TapCommandEffect.Tap="{Binding BindingContext.SelectPhotoCommand, Source={x:Reference ThisView}}"
+                                  h:TapCommandEffect.TapParameter="{Binding .}">
+                                <Frame CornerRadius="10" BorderColor="Gray" IsClippedToBounds="True">
+                                    <f:CachedImage Aspect="AspectFit" DownsampleToViewSize="True" Source="{Binding ImageSource}" BitmapOptimizations="True" CacheType="Disk">
+                                        <f:CachedImage.Transformations>
+                                            <t:RoundedTransformation Radius="10"/>
+                                        </f:CachedImage.Transformations>
+                                    </f:CachedImage>
+                                </Frame>
+
+                                <Label Text="{Binding Position, Mode=OneWay}" FontSize="20" Margin="8" VerticalOptions="Start" HorizontalOptions="Start"/>
+
+                                <Button BackgroundColor="Azure" BorderWidth="0" BorderColor="Azure"
+                                        HeightRequest="38" WidthRequest="38" CornerRadius="30" VerticalOptions="End" HorizontalOptions="End" Margin="-5"
+                                        Command="{Binding BindingContext.RemovePhotoCommand, Source={x:Reference ThisView}}" CommandParameter="{Binding .}"
+                                        IsVisible="{Binding Path=HasImage}">
+                                    <Button.ImageSource>
+                                        <FontImageSource Color=" Black" FontFamily="{StaticResource Font.Glyph}" Glyph="{StaticResource Icon.Close}" Size="26"/>
+                                    </Button.ImageSource>
+                                </Button>
+                            </Grid>
+                        </ContentView>
+                    </r:DraggableViewCell>
+                </DataTemplate>
+            </r:HorizontalListView.ItemTemplate>
+        </r:HorizontalListView>
+    </Grid>
+</ContentView>
