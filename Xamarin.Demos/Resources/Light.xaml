@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--Backgrounds-->
+    <Color x:Key="Color.Background.Even">#F3F4FA</Color>
+    <Color x:Key="Color.Background.Odd">#FFFFFF</Color>
+    <Color x:Key="Color.Foreground">#000000</Color>
+
+    <x:String x:Key="Color.Name">Light</x:String>
+</ResourceDictionary>

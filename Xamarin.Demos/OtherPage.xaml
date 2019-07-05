@@ -1,0 +1,12 @@
+﻿<c:ExtendedContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:c="clr-namespace:Xamarin.Demos.Controls;assembly=Xamarin.Demos"
+                       x:Class="Xamarin.Demos.OtherPage" 
+                       StartColor="{DynamicResource Color.Background.Even}" EndColor="{DynamicResource Color.Background.Odd}">
+
+    <StackLayout VerticalOptions="Center" Margin="10">
+        <Label Text="{DynamicResource Color.Name}"/>
+
+        <Button Text="Go Back" Clicked="Back_Clicked"/>
+    </StackLayout>
+</c:ExtendedContentPage>

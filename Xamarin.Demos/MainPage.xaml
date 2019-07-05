@@ -1,0 +1,34 @@
+﻿<c:ExtendedContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:c="clr-namespace:Xamarin.Demos.Controls;assembly=Xamarin.Demos"
+                       x:Class="Xamarin.Demos.MainPage" 
+                       StartColor="{DynamicResource Color.Background.Even}" EndColor="{DynamicResource Color.Background.Odd}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Text="Issue with Font Glyphs" Margin="5,0"/>
+        <Button Grid.Row="1" Text="Open test page" Clicked="FontTest_Clicked"/>
+
+        <Label Grid.Row="3" Text="Issue with Sharpnado.HorizontalListView" Margin="5,0"/>
+        <Button Grid.Row="4" Text="Open test page" Clicked="FontTest_Clicked"/>
+
+        <Label Grid.Row="6" Text="Issue with DynamicResource" Margin="5,0"/>
+        <Label Grid.Row="7" x:Name="MainLabel" Text="The theme should be Light." Margin="5,0"/>
+        <Label Grid.Row="8" Text="{DynamicResource Color.Name}" Margin="5,0"/>
+        <Button Grid.Row="9" Text="Change resource" Clicked="DynamicResource_Clicked"/>
+        <Button Grid.Row="10" Text="Open test page" Clicked="DynamicResourceOther_Clicked"/>
+    </Grid>
+</c:ExtendedContentPage>
